@@ -2,13 +2,13 @@
 
 This project explores how label noise affects the performance of supervised machine learning models. Using a real-world weather dataset (`weatherAUS.csv`), we simulate label noise and compare the performance of models trained on clean vs noisy data.
 
-## 📌 Objective
+## Objective
 
 To investigate how introducing noisy labels into the dataset impacts the accuracy and reliability of machine learning classifiers like Random Forest and XGBoost.
 
 ---
 
-## 🔍 Dataset
+## Dataset
 
 - **Source:** [Kaggle - Rain in Australia](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
 - **Format:** CSV
@@ -16,7 +16,7 @@ To investigate how introducing noisy labels into the dataset impacts the accurac
 
 ---
 
-## 🔧 Project Steps
+## Project Steps
 
 ### 1. Data Cleaning
 - Removed columns with excessive missing values
@@ -45,7 +45,7 @@ To investigate how introducing noisy labels into the dataset impacts the accurac
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - **Label noise significantly reduced model accuracy**
 - **XGBoost was more robust to noise** compared to Random Forest
@@ -53,7 +53,7 @@ To investigate how introducing noisy labels into the dataset impacts the accurac
 
 ---
 
-## 📁 Files
+## Files
 
 - `notebook.ipynb` — Google Colab notebook with full implementation
 - `weatherAUS.csv` — Dataset used (upload it manually or link via Kaggle)
@@ -61,7 +61,7 @@ To investigate how introducing noisy labels into the dataset impacts the accurac
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Upload `weatherAUS.csv` into your Colab session
 2. Open the notebook
@@ -69,7 +69,7 @@ To investigate how introducing noisy labels into the dataset impacts the accurac
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 This project shows the real-world importance of:
 - Data quality (especially labels)
@@ -78,10 +78,10 @@ This project shows the real-world importance of:
 
 ---
 
-## 📌 Author
+## Author
 
-👨‍💻 HTET AUNG KHANT
-🎓 BTECH [CSE]
-🌐 Built using: Python, Pandas, Scikit-learn, XGBoost, Seaborn, Matplotlib
+HTET AUNG KHANT
+BTECH [CSE]
+Built using: Python, Pandas, Scikit-learn, XGBoost, Seaborn, Matplotlib
 
 ---
